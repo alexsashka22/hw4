@@ -68,10 +68,10 @@
     // print_r($array);
 
     echo "<pre>";
-    echo 'Weather in' . ' ' . $array[name] . ' ' . $array[sys][country];
-    echo "Temperature is " . ' ' . $array[main][temp];
-    echo "Wind " . '- ' . $array[wind][speed];
-    echo "Pressure - " . ' ' . $array[main][pressure];
-    echo "Humidity - " . ' ' . $array[main][humidity];
+    echo 'Weather in' . ' ' . $array['name'] . ', ' . $array['sys']['country']; echo "<pre>";
+    echo "Temperature is " . ' ' . $array['main']['temp']; echo "<pre>";
+    echo "Wind " . '- ' . $array['wind']['speed']; echo "<pre>";
+    echo "Pressure - " . ' ' . $array['main']['pressure']; echo "<pre>";
+    echo "Humidity - " . ' ' . $array['main']['humidity']; echo "<pre>";
 
 ?>
